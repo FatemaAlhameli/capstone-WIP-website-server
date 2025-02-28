@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Upload Your Photo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Upload Your Photo</h1>
+  <form id="uploadForm" enctype="multipart/form-data">
+    <input type="file" name="photo" id="photoInput" accept="image/*" required>
+    <button type="submit">Print</button>
+  </form>
+  <img id="preview" src="#" alt="Photo Preview" style="display:none; max-width: 300px;">
+  
+  <!-- Move script here and add defer -->
+  <script src="app.js" defer></script>
+</body>
+</html>
